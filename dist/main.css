@@ -1,0 +1,76 @@
+.controls {
+  display: flex;
+  align-items: center;
+}
+.controls .btn {
+  border-radius: 50%;
+  border: 1px solid #5399f1;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  line-height: 18px;
+}
+.controls .btn:focus {
+  outline: none;
+}
+.controls .number {
+  width: 20px;
+  display: inline-block;
+  text-align: center;
+  color: #565555;
+}
+.cart-container {
+  text-align: center;
+  border: 1px solid #eee;
+  padding: 20px 10px;
+}
+.cart-container .product-list {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+.cart-container .product-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-container .product-list li .product {
+  padding: 0 20px 20px;
+}
+.cart-container .product-list li .product span {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+}
+.cart-container .product-list li .product span.price {
+  color: #909090;
+}
+.buy-btn {
+  border: 0;
+  font-size: 16px;
+  color: white;
+  background: #366fe2;
+  padding: 10px;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.buy-btn:hover {
+  background: #5388f3;
+}
+.buy-btn:focus {
+  outline: none;
+}
+.buy-btn:disabled {
+  background: #909090;
+  color: #ccc;
+}
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 100%;
+}
+.page-wrapper {
+  max-width: 860px;
+  margin: 0 auto;
+}

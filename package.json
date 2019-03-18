@@ -1,0 +1,56 @@
+{
+  "name": "react-cart",
+  "version": "1.0.0",
+  "description": "React cart example",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupesx26/React-cart-example.git"
+  },
+  "keywords": [
+    "React",
+    "cart",
+    "product",
+    "add",
+    "remove"
+  ],
+  "author": "rupesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupesx26/React-cart-example/issues"
+  },
+  "homepage": "https://github.com/rupesx26/React-cart-example#readme",
+  "dependencies": {
+    "less": "^3.9.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-script": "^2.0.5",
+    "webpack": "^4.29.6"
+  },
+  "peerDependencies": {
+    "less": "^2.3.1 || ^3.0.0",
+    "webpack": "^2.0.0 || ^3.0.0 || ^4.0.0"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less-loader": "^4.1.0",
+    "path": "^0.12.7",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
