@@ -1,4 +1,5 @@
 #React cart page example
+![](react-cart.gif)
 
 
 #How to 
